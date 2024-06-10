@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>audio</class>
+ <widget class="QDialog" name="audio">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#audio{ 
+background-image: url(://verte.png)
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="cancion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(69, 69, 69, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>HOJA EN BLANCO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancion_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(69, 69, 69, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MBAPPE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancion_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>70</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(69, 69, 69, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>AMORFODA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancion_4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>130</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(69, 69, 69, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ARRANCARMELO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancion_5">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>70</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(69, 69, 69, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>DEBO ENTENDER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancion_6">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>130</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(69, 69, 69, 255));
+color: rgb(255, 255, 255);
+font: 700 13pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>UN MILLON DE PRIMAVERAS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="play">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>350</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#play{ 
+background-image: url(://playda.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSlider" name="volumen">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>360</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="value">
+    <number>99</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>768</x>
+     <y>360</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(0, 0, 0, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pause">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>360</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pause{ 
+background-image: url(://stopp.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progreso">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>380</y>
+     <width>331</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <zorder>play</zorder>
+  <zorder>cancion</zorder>
+  <zorder>cancion_2</zorder>
+  <zorder>cancion_3</zorder>
+  <zorder>cancion_4</zorder>
+  <zorder>cancion_5</zorder>
+  <zorder>cancion_6</zorder>
+  <zorder>volumen</zorder>
+  <zorder>label</zorder>
+  <zorder>pause</zorder>
+  <zorder>progreso</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

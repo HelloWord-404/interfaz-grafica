@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sii.png</file>
+        <file>hg.png</file>
+        <file>bb.png</file>
+        <file>smartpps.png</file>
+        <file>barra.png</file>
+        <file>verte.png</file>
+        <file>matass.png</file>
+        <file>18.png</file>
+        <file>logo.png</file>
+        <file>playda.png</file>
+        <file>stopp.png</file>
+        <file>siri.png</file>
+        <file>casita.png</file>
+        <file>aapps.png</file>
+        <file>fondoapp.png</file>
+        <file>whatsapplogo.png</file>
+        <file>fondowhats.png</file>
+        <file>logo1.png</file>
+        <file>word.png</file>
+        <file>interfazword.png</file>
+        <file>logord.png</file>
+    </qresource>
+</RCC>
